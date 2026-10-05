@@ -171,8 +171,8 @@ ul, ol { padding-left: 24px; } li { margin: 7px 0; }
   <div class="titleblock">
     <div class="eyebrow">Research article · Computational toxicokinetics</div>
     <h1>A Physiologically Based Pharmacokinetic Model of Inhaled Toluene for Occupational Exposure Assessment</h1>
-    <div class="authors">[Luke Searcy]<sup>1</sup></div>
-    <div class="affil"><sup>1</sup>[Dep. Engineering Technology, University of North Alabama] · Correspondence: [csearcy2@una.edu]</div>
+    <div class="authors">[Luke Searcy]</div>
+    <div class="affil">[Dep. Engineering Technology, University of North Alabama] · Correspondence: [csearcy2@una.edu]</div>
     <div class="meta-line">Independent research · Published October 2026</div>
   </div>
   <hr class="rule"/>
@@ -240,12 +240,12 @@ ul, ol { padding-left: 24px; } li { margin: 7px 0; }
   <h3>2.2 Governing equations</h3>
   <p>For the flow-limited tissues (fat, richly perfused, slowly perfused), the rate of change of the amount
   <em>A</em> of toluene is</p>
-  <div class="eq">dA<sub>t</sub>/dt = Q<sub>t</sub> ( C<sub>art</sub> − C<sub>v,t</sub> ) <span class="eqn">(1)</span></div>
+  <div class="eq">dA<sub>t</sub>/dt = Q<sub>t</sub> (C<sub>art</sub> − C<sub>v,t</sub>) <span class="eqn">(1)</span></div>
   <p>The liver additionally loses toluene to saturable (Michaelis–Menten) metabolism:</p>
-  <div class="eq">dA<sub>liver</sub>/dt = Q<sub>liver</sub> ( C<sub>art</sub> − C<sub>v,liver</sub> ) − V<sub>max</sub> C<sub>v,liver</sub> / ( K<sub>m</sub> + C<sub>v,liver</sub> ) <span class="eqn">(2)</span></div>
+  <div class="eq">dA<sub>liver</sub>/dt = Q<sub>liver</sub> (C<sub>art</sub> − C<sub>v,liver</sub>) − V<sub>max</sub> C<sub>v,liver</sub> / (K<sub>m</sub> + C<sub>v,liver</sub>) <span class="eqn">(2)</span></div>
   <p>Arterial concentration is obtained from the Ramsey–Andersen steady-state gas-exchange solution, valid
   because pulmonary blood transit is fast relative to tissue dynamics:</p>
-  <div class="eq">C<sub>art</sub> = ( Q<sub>c</sub> C<sub>v,mixed</sub> + Q<sub>alv</sub> C<sub>inh</sub> ) / ( Q<sub>c</sub> + Q<sub>alv</sub> / P<sub>b:air</sub> ) <span class="eqn">(3)</span></div>
+  <div class="eq">C<sub>art</sub> = (Q<sub>c</sub> C<sub>v,mixed</sub> + Q<sub>alv</sub> C<sub>inh</sub>) / (Q<sub>c</sub> + Q<sub>alv</sub> / P<sub>b:air</sub>) <span class="eqn">(3)</span></div>
   <p>where <em>Q</em><sub>t</sub> is tissue blood flow, <em>Q</em><sub>c</sub> cardiac output, <em>Q</em><sub>alv</sub>
   alveolar ventilation, <em>C</em><sub>inh</sub> the inhaled-air concentration, <em>C</em><sub>v,mixed</sub> the
   flow-weighted mixed venous concentration, and <em>P</em><sub>b:air</sub> the blood:air partition coefficient.
